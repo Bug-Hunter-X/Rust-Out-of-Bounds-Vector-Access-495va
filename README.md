@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: accessing a vector element using an index that is out of bounds.  The provided code will panic at runtime because it attempts to access `vec[2]` when the vector only has elements at indices 0 and 1.  The solution demonstrates how to safely access vector elements using error handling.
